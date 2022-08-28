@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "IronOcr/2022.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net40/IronOcr.dll": {}
+        },
+        "runtime": {
+          "lib/net40/IronOcr.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win7-x86": {
+      "IronOcr/2022.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net40/IronOcr.dll": {}
+        },
+        "runtime": {
+          "lib/net40/IronOcr.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IronOcr/2022.1.0": {
+      "sha512": "AUUlEOuG9RmXDTVPn7S7zkbWTDnjKCbfU9VZiMrlhjpVPIHfQjy1he5icDJI/bJHXyXc2loTYkv++UN9lBQsBg==",
+      "type": "package",
+      "path": "ironocr/2022.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.txt",
+        "ironocr.2022.1.0.nupkg.sha512",
+        "ironocr.nuspec",
+        "lib/net40/IronOcr.dll",
+        "lib/net40/IronOcr.xml",
+        "lib/netstandard2.0/IronOcr.dll",
+        "lib/netstandard2.0/IronOcr.xml",
+        "readme-setup.txt",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "IronOcr >= 2022.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\AdamH\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Storage\\dotNet Projects\\HLLArtillery\\HLLArtillery.csproj",
+      "projectName": "HLLArtillery",
+      "projectPath": "D:\\Storage\\dotNet Projects\\HLLArtillery\\HLLArtillery.csproj",
+      "packagesPath": "C:\\Users\\AdamH\\.nuget\\packages\\",
+      "outputPath": "D:\\Storage\\dotNet Projects\\HLLArtillery\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\AdamH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "IronOcr": {
+            "target": "Package",
+            "version": "[2022.1.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

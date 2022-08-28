@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VhiYO/ryZzzl2+7Vngryxk7oKFLmO1gvvsxUyH+IWm1nlcCe5fy7U+5+Md8t0E9O1IXKE+miNU90TLNBV6/VgA==",
+  "success": true,
+  "projectFilePath": "D:\\Storage\\dotNet Projects\\HLLArtillery\\HLLArtillery.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AdamH\\.nuget\\packages\\ironocr\\2022.1.0\\ironocr.2022.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
